@@ -16,9 +16,9 @@ body {
 }
 
 .main-header {
-    background-color:  #ffffff;
+    background-color: #fff;
     padding: 15px 30px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,7 @@ body {
 .main-nav ul {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     display: flex;
     gap: 25px;
 }
@@ -45,11 +45,10 @@ body {
     font-size: 1rem;
     font-weight: 500;
     padding-bottom: 5px;
-    transition: 0.3s;
-    border-bottom-color: 0.3s;
+    transition: color 0.3s, border-bottom-color 0.3s;
 }
 
 .main-nav a:hover {
-    color:#007bff;
+    color: #007bff;
     border-bottom: 2px solid #007bff;
 }
